@@ -26,7 +26,6 @@ The supervised fine-tuning (Reasoning-SFT) and Group Relative Policy Optimizatio
 
 📄 Dataset Structure
 <br>The `qwen.json` and the `phi.json` file contains the generated rationales and formatted instruction data. Each entry includes the following fields:
-
 <br>`id`: A unique integer identifier for the data instance.
 <br>`image`: The file path to the corresponding image being evaluated.
 <br>`reasoning`: The generated rationale assessing the image's persuasiveness
