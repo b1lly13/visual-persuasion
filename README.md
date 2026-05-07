@@ -23,3 +23,10 @@ Sensitivity:
 The supervised fine-tuning (Reasoning-SFT) and Group Relative Policy Optimization (GRPO) training codes are not hosted in this repository. Our training environments were built by cloning and adapting the following open-source repositories:
 <br>Qwen-2.5-VL Training: 2U1/Qwen-VL-Series-Finetune
 <br>Phi-3.5-vision Training: 2U1/Phi3-Vision-Finetune
+
+
+Running the .py files
+<br> python run_nli.py
+
+Running the .sh files
+<br> bash sensitivity.sh
