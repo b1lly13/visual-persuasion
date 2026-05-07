@@ -17,7 +17,7 @@ Groundedness:
 <br>clip_metric_groundedness.py: Baseline groundedness calculations using CLIP text/image similarity.
 
 Sensitivity:
-<br>analyze_flip_exclusion.py & run_flip_exclusion.sh: Pipeline for measuring rationale-to-decision sensitivity via counterfactual image editing.
+<br>sensitivity.py & sensitivity.sh: Pipeline for measuring rationale-to-decision sensitivity via counterfactual image editing.
 
 🏋️ Training Code
 The supervised fine-tuning (Reasoning-SFT) and Group Relative Policy Optimization (GRPO) training codes are not hosted in this repository. Our training environments were built by cloning and adapting the following open-source repositories:
