@@ -25,7 +25,8 @@ The supervised fine-tuning (Reasoning-SFT) and Group Relative Policy Optimizatio
 <br>Phi-3.5-vision Training: 2U1/Phi3-Vision-Finetune
 
 📄 Dataset Structure
-The `qwen.json` and the `phi.json` file contains the generated rationales and formatted instruction data. Each entry includes the following fields:
+<br>The `qwen.json` and the `phi.json` file contains the generated rationales and formatted instruction data. Each entry includes the following fields:
+
 <br>`id`: A unique integer identifier for the data instance.
 <br>`image`: The file path to the corresponding image being evaluated.
 <br>`reasoning`: The generated rationale assessing the image's persuasiveness
